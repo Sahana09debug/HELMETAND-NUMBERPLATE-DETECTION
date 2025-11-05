@@ -1,16 +1,37 @@
-# Ignore virtual environment
-venv/
-
-# Ignore Python cache
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-runs/*
-.pt
-*.zip
 *.log
-# Ignore system files
+
+# Virtual environment
+venv/
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS files
 .DS_Store
 Thumbs.db
-.ipynb_checkpoints
+
+# Flask uploads & results
+static/uploads/
+static/results/
+
+# YOLO/Detection outputs
+runs/
+*.pt
+cropped_plates/
+
+# Temporary / cache files
+*.tmp
+*.bak
+*.swp
+.cache/
+.ipynb_checkpoints/
+
+# CSV result files
+plate_results.csv

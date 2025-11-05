@@ -1,5 +1,5 @@
-train: ./data/images/train
-val: ./data/images/val
+train: C:/Users/dell/OneDrive/Desktop/HelmetNumberplate/data/images/train
+val: C:/Users/dell/OneDrive/Desktop/HelmetNumberplate/data/images/val
 
 nc: 3
-names: ['helmet', 'no_helment', 'number_plate']
+names: ['helmet', 'no_helmet', 'number_plate']

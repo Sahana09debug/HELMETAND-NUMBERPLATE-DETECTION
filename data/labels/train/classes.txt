@@ -1,2 +1,3 @@
-numberplate
 helmet
+number_plate
+no_helmet

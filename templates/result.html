@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detection Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f8ff;
+            padding: 50px;
+        }
+        img {
+            width: 50%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .number {
+            background: #fff;
+            display: inline-block;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.2);
+        }
+        a {
+            display: inline-block;
+            margin-top: 25px;
+            text-decoration: none;
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+        }
+        a:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Detection Result</h1>
+    <img src="{{ image }}" alt="Detected Image">
+    <div class="number">
+        <h2>Detected Number Plate:</h2>
+        <p>{{ number }}</p>
+    </div>
+    <a href="/">⬅ Back to Upload</a>
+</body>
+</html>
