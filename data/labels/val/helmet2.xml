@@ -1,0 +1,26 @@
+<annotation>
+	<folder>val</folder>
+	<filename>helmet2.jpeg</filename>
+	<path>C:\Users\dell\OneDrive\Desktop\HelmetNumberplate\data\images\val\helmet2.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2560</width>
+		<height>1919</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>number_plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>845</xmin>
+			<ymin>426</ymin>
+			<xmax>1922</xmax>
+			<ymax>988</ymax>
+		</bndbox>
+	</object>
+</annotation>

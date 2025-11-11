@@ -2,4 +2,4 @@ train: C:/Users/dell/OneDrive/Desktop/HelmetNumberplate/data/images/train
 val: C:/Users/dell/OneDrive/Desktop/HelmetNumberplate/data/images/val
 
 nc: 3
-names: ['helmet', 'no_helmet', 'number_plate']
+names: ['number_plate', 'no_helmet','helmet']
